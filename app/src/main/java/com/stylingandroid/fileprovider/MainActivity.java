@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button downloadButton = (Button) findViewById(R.id.download);
-        downloadButton.setOnClickListener(new View.OnClickListener() {
+        Button shareButton = (Button) findViewById(R.id.share);
+        shareButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 share();
